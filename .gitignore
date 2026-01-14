@@ -1,0 +1,22 @@
+# Veri Dosyaları (Güvenlik ve Performans)
+data/
+*.csv
+*.xlsx
+*.json
+!data/README.md  # Veri klasörü yapısını anlatmak istersen bu hariç
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Mac İşletim Sistemi
+.DS_Store
+
+# Modeller ve Çıktılar
+models/*.pkl
+models/*.h5
+reports/*.pdf
